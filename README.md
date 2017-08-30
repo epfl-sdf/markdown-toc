@@ -24,3 +24,20 @@ browserify index.js -o bundle.js
 
 open index.html, or publish to the gh-pages branch on github!
 
+
+# et en vitesse on fait ;-)
+
+## pour installer
+
+```./install.sh```
+
+## pour compiler
+
+```./start.sh```
+
+## pour remonter le tout sur github
+
+```git push```
+
+
+
