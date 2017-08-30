@@ -1,18 +1,15 @@
 # github-toc online TOC generator
 
-- [github-toc online TOC generator](#github-toc-online-toc-generator)
-  * [Install](#install)
+  * [Installéééééé](#installéééééé)
   * [Generate Browser bundle](#generate-browser-bundle)
   * [Use](#use)
-- [et en vitesse on fait (test des accents école à vélo) ;-)](#et-en-vitesse-on-fait-test-des-accents-école-à-vélo--)
+- [et en vitesse on fait](#et-en-vitesse-on-fait)
   * [pour installer](#pour-installer)
   * [pour compiler](#pour-compiler)
   * [pour remonter le tout sur github](#pour-remonter-le-tout-sur-github)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-
-## Install
+## Installéééééé
 
 Install npm modules used to generate bundle.js (with browserify) for the static site.
 
