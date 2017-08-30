@@ -1,10 +1,6 @@
 
 # github-toc online TOC generator
 
-- [github-toc online TOC generator](#github-toc-online-toc-generator)
-  * [Install](#install)
-  * [Generate Browser bundle](#generate-browser-bundle)
-  * [Use](#use)
 
 ## Install
 
@@ -25,7 +21,7 @@ browserify index.js -o bundle.js
 open index.html, or publish to the gh-pages branch on github!
 
 
-# et en vitesse on fait ;-)
+# et en vitesse on fait (test des accents école à vélo) ;-)
 
 ## pour installer
 
