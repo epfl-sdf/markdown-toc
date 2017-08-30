@@ -21,9 +21,7 @@ select_all_on_click(document.getElementById('toc'));
 window.convert = function(e){
 
   document.getElementById('toc').value
-  =toc(document.getElementById('md').value).content 
-  +"\n\n<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>\n";
-
+  =toc(document.getElementById('md').value).content;
 };
 
 convert();
