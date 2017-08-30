@@ -11,7 +11,7 @@ sudo apt-get install -y build-essential
 sudo apt-get install -y gnupg2
 
 #installation au niveau global browserify
-sudo npm install -g browserify
+#sudo npm install -g browserify
 
 npm install
 sudo npm install -g nodemon
