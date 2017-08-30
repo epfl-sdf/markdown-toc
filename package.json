@@ -1,99 +1,26 @@
 {
   "name": "markdown-toc",
-  "description": "Generate a markdown TOC (table of contents) with Remarkable.",
-  "version": "0.12.5",
-  "homepage": "https://github.com/jonschlinkert/markdown-toc",
-  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
-  "repository": "jonschlinkert/markdown-toc",
+  "version": "1.0.0",
+  "description": "demo page for markdown-toc",
+  "main": "index.js",
+  "dependencies": {
+    "browserify": "^13.0.0",
+    "coffee-script": "^1.10.0",
+    "markdown-toc": "^0.12.5",
+    "toml": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonschlinkert/markdown-toc.git"
+  },
+  "author": "Clark Van Oyen",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jonschlinkert/markdown-toc/issues"
   },
-  "license": "MIT",
-  "files": [
-    "cli.js",
-    "index.js",
-    "lib/"
-  ],
-  "main": "index.js",
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "bin": {
-    "markdown-toc": "cli.js"
-  },
-  "dependencies": {
-    "concat-stream": "^1.5.1",
-    "gray-matter": "^2.0.2",
-    "lazy-cache": "^1.0.3",
-    "list-item": "^1.1.1",
-    "markdown-link": "^0.1.1",
-    "minimist": "^1.2.0",
-    "mixin-deep": "^1.1.3",
-    "object.pick": "^1.1.2",
-    "remarkable": "^1.6.2",
-    "repeat-string": "^1.5.4"
-  },
-  "devDependencies": {
-    "gulp-format-md": "^0.1.7",
-    "mocha": "^2.4.5",
-    "should": "^8.2.2"
-  },
-  "keywords": [
-    "anchor",
-    "commonmark",
-    "docs",
-    "document",
-    "documentation",
-    "glossary",
-    "heading",
-    "index",
-    "links",
-    "markdown",
-    "md",
-    "plugin",
-    "readme",
-    "reference",
-    "remarkable",
-    "remarkableplugin",
-    "render",
-    "renderer",
-    "table",
-    "table of contents",
-    "table-of-contents",
-    "toc",
-    "write"
-  ],
-  "verb": {
-    "run": true,
-    "toc": true,
-    "layout": "default",
-    "tasks": [
-      "readme"
-    ],
-    "plugins": [
-      "gulp-format-md"
-    ],
-    "related": {
-      "list": [
-        "gfm-code-blocks",
-        "markdown-link",
-        "markdown-utils",
-        "pretty-remarkable",
-        "remarkable"
-      ]
-    },
-    "reflinks": [
-      "<%= related.list %>",
-      "verb"
-    ],
-    "lint": {
-      "reflinks": true
-    }
-  },
-  "directories": {
-    "test": "test"
-  }
+  "homepage": "https://github.com/jonschlinkert/markdown-toc"
 }

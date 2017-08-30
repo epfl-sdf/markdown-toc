@@ -1,0 +1,53 @@
+<html>
+      <head>
+            <meta charset="utf-8">
+            <title>GitHub TDM générateur</title>
+            
+            <style>
+                  div.column {
+                        display: inline-block;
+                        height: 500px;
+                        width: 49%;
+                        position: relative;
+                  }
+                  textarea {
+                        display: block;
+                        position: absolute;
+                        top:30px; width:100%; right:0; bottom: 0;
+                        height: 90%;
+                  }
+            </style>
+      </head>
+      <body>
+            <h1>Générateur en ligne de table des matière markdown pour GitHub</h1>
+            <p></p>
+            <div>
+                  <div class=column>
+                        Coller votre code MarkDown ici
+                        <textarea id=md onchange="convert()">
+                              
+                              # Coller votre document MarkDown ici
+
+                              ## Et une table des matière sera générée
+                              ## sur le côté droite de cette page.
+
+                        </textarea>
+                  </div>
+                  
+                  <div class=column>
+                  TDM générée ici
+                  <textarea id=toc>
+                  </textarea>
+                  </div>
+            </div>
+            
+            <p>
+            <button onclick='convert()'>conversion</button>
+            </p>
+
+Source: http://ecotrust-canada.github.io/markdown-toc/<br>
+170830.1806
+            
+            <script src="bundle.js"></script>
+      </body>
+</html>
