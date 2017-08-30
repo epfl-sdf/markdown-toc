@@ -5,6 +5,13 @@
   * [Install](#install)
   * [Generate Browser bundle](#generate-browser-bundle)
   * [Use](#use)
+- [et en vitesse on fait (test des accents école à vélo) ;-)](#et-en-vitesse-on-fait-test-des-accents-école-à-vélo--)
+  * [pour installer](#pour-installer)
+  * [pour compiler](#pour-compiler)
+  * [pour remonter le tout sur github](#pour-remonter-le-tout-sur-github)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 ## Install
 
@@ -25,7 +32,7 @@ browserify index.js -o bundle.js
 open index.html, or publish to the gh-pages branch on github!
 
 
-# et en vitesse on fait ;-)
+# et en vitesse on fait (test des accents école à vélo) ;-)
 
 ## pour installer
 
