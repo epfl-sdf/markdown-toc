@@ -1,7 +1,7 @@
 <html>
       <head>
             <meta charset="utf-8">
-            <title>Génération en ligne de table des matière markdown pour GitHub.</title>
+            <title>GitHub TDM générateur</title>
             
             <style>
                   div.column {
@@ -18,35 +18,30 @@
             </style>
       </head>
       <body>
-            <h1>GitHub Wiki TOC generator vive la SDF ;-) une belle école !</h1>
-            <p>This page uses markdown-toc library to generate your MarkDown TOC online.</p>
+            <h1>Générateur en ligne de table des matière markdown pour GitHub - tiré de</h1>
+            <p>Cette page utilise la librairie markdown-toc pour générer notre MarkDown TDM en ligne.</p>
             <div>
                   <div class=column>
-                        paste markdown here
+                        Coller votre code MarkDown ici.
                         <textarea id=md onchange="convert()">
                               
-                              # Paste Your Document In Here
+                              # Coller votre document MarkDown ici
 
-                              ## And a table of contents
-
-                              will be generated
-
-                              ## On the right
-
-                              side of this page.
+                              ## Et une table des matière sera générée
+                              ## sur le côté droite de cette page.
 
                         </textarea>
                   </div>
                   
                   <div class=column>
-                  TOC generated here
+                  TDM générée ici
                   <textarea id=toc>
                   </textarea>
                   </div>
             </div>
             
             <p>
-            <button onclick='convert()'>convert</button>
+            <button onclick='convert()'>conversion</button>
             </p>
             
             <script src="bundle.js"></script>
