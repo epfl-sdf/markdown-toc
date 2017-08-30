@@ -1,51 +1,54 @@
 <html>
-<head>
-      <meta charset="utf-8">
+      <head>
+            <meta charset="utf-8">
+            <title>Génération en ligne de table des matière markdown pour GitHub.</title>
+            
+            <style>
+                  div.column {
+                        display: inline-block;
+                        height: 500px;
+                        width: 49%;
+                        position: relative;
+                  }
+                  textarea {
+                        display: block;
+                        position: absolute;
+                        top:30px; width:100%; right:0; bottom: 0;
+                  }
+            </style>
+      </head>
+      <body>
+            <h1>GitHub Wiki TOC generator vive la SDF ;-) une belle école !</h1>
+            <p>This page uses markdown-toc library to generate your MarkDown TOC online.</p>
+            <div>
+                  <div class=column>
+                        paste markdown here
+                        <textarea id=md onchange="convert()">
+                              
+                              # Paste Your Document In Here
 
-<title>Generate TOC Table of Contents from GitHub Markdown or Wiki Online</title>
-<style>
-div.column {
-  display: inline-block;
-  height: 500px;
-  width: 49%;
-  position: relative;
-}
-textarea {
-  display: block;
-  position: absolute;
-  top:30px; width:100%; right:0; bottom: 0;
-}
-</style>
-</head>
-<body>
-<h1>GitHub Wiki TOC generator vive la SDF ;-) une belle école !</h1>
-<p>This page uses markdown-toc library to generate your MarkDown TOC online.</p>
-<div>
-  <div class=column>
-    paste markdown here
-<textarea id=md onchange="convert()">
+                              ## And a table of contents
 
-# Paste Your Document In Here
+                              will be generated
 
-## And a table of contents
+                              ## On the right
 
-will be generated
+                              side of this page.
 
-## On the right
-
-side of this page.
-
-</textarea>
-  </div><div class=column>
-    TOC generated here
-    <textarea id=toc>
-    </textarea>
-  </div>
-</div>
-<p>
-<button onclick='convert()'>convert</button>
-</p>
-<script src="bundle.js"></script>
-
-</body>
+                        </textarea>
+                  </div>
+                  
+                  <div class=column>
+                  TOC generated here
+                  <textarea id=toc>
+                  </textarea>
+                  </div>
+            </div>
+            
+            <p>
+            <button onclick='convert()'>convert</button>
+            </p>
+            
+            <script src="bundle.js"></script>
+      </body>
 </html>
