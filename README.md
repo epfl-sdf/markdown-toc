@@ -1,6 +1,6 @@
 # github-toc online TOC generator
 
-  * [Installéééééé](#installéééééé)
+  * [Install](#install)
   * [Generate Browser bundle](#generate-browser-bundle)
   * [Use](#use)
 - [et en vitesse on fait](#et-en-vitesse-on-fait)
@@ -9,26 +9,25 @@
   * [pour remonter le tout sur github](#pour-remonter-le-tout-sur-github)
 
 
-## Installéééééé
+## Installation
 
-Install npm modules used to generate bundle.js (with browserify) for the static site.
+Installation des modules npm utilisés pour générer le bundle.js, avec browserify, pour le site statique.
 
 ```
 npm install
 ```
 
-## Generate Browser bundle
+## Génération du paquet pour le navigateur
 
 ```
 browserify index.js -o bundle.js
 ```
 
-## Use
+## Utilisation
 
-open index.html, or publish to the gh-pages branch on github!
+Ouvrir index.html, ou publier dans la branche master sur GitHub
 
-
-# et en vitesse on fait
+# En vitesse on peut faire
 
 ## pour installer
 
