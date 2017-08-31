@@ -3,7 +3,6 @@
 - [Installation](#installation)
   * [Compilation](#compilation)
   * [Mise à jour sur le GitHub](#mise-à-jour-sur-le-github)
-  * [Génération du paquet pour le navigateur](#génération-du-paquet-pour-le-navigateur)
 - [Utilisation](#utilisation)
   * [Génération de la table des matières](#génération-de-la-table-des-matières)
 
@@ -29,12 +28,6 @@ Pour remonter le tout sur GitHub on lance le script suivant
 
 ```
 git push
-```
-
-## Génération du paquet pour le navigateur
-
-```
-browserify index.js -o bundle.js
 ```
 
 # Utilisation
