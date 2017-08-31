@@ -32,7 +32,7 @@ git push
 
 # Utilisation
 
-Ouvrir index.html, ou publier la branche master sur GitHub pages.
+Ouvrir index.html, ou publier la branche master sur GitHub pages (https://pages.github.com/).
 
 ## Génération de la table des matières
 
