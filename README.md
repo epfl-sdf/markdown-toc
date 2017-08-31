@@ -1,9 +1,9 @@
 # github-toc online TOC generator
 
-  * [Install](#install)
-  * [Generate Browser bundle](#generate-browser-bundle)
-  * [Use](#use)
-- [et en vitesse on fait](#et-en-vitesse-on-fait)
+  * [Installation](#installation)
+  * [Génération du paquet pour le navigateur](#génération-du-paquet-pour-le-navigateur)
+  * [Utilisation](#utilisation)
+- [En vitesse on peut faire](#en-vitesse-on-peut-faire)
   * [pour installer](#pour-installer)
   * [pour compiler](#pour-compiler)
   * [pour remonter le tout sur github](#pour-remonter-le-tout-sur-github)
