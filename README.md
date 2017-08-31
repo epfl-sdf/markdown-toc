@@ -1,4 +1,4 @@
-# github-toc online TOC generator
+# GitHub-toc générateur de Table des matières en ligne
 
 - [Installation](#installation)
   * [Compilation](#compilation)
@@ -8,7 +8,7 @@
 
 # Installation
 
-L'installation ce fait en lançant le script suivant
+L'installation se fait en lançant le script suivant
 
 ```
 ./install.sh
@@ -16,7 +16,7 @@ L'installation ce fait en lançant le script suivant
 
 ## Compilation
 
-La compilation ce fait en lançant le script suivant
+La compilation se fait en lançant le script suivant
 
 ```
 ./start.sh
@@ -32,7 +32,7 @@ git push
 
 # Utilisation
 
-Ouvrir index.html, ou publier dans la branche master sur GitHub.
+Ouvrir index.html, ou publier la branche master sur GitHub pages.
 
 ## Génération de la table des matières
 
