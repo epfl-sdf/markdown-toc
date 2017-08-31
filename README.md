@@ -40,4 +40,4 @@ Cliquer sur le lien ci-dessous
 
 https://epfl-sdf.github.io/markdown-toc/
 
-<p align="justify">Copier le contenu de votre fichier.md dans le nloc de texte de gauche puis appuyer sur le bouton "conversion" en bas à gauche. La table des matières générée s'affichera dans le bloc de texte de droite. Il ne reste plus qu'à copier-coller la table des matière dans votre fichier.md</p>
+<p align="justify">Copier le contenu de votre fichier.md dans le bloc de texte de gauche puis appuyer sur le bouton "conversion" en bas à gauche. La table des matières générée s'affichera dans le bloc de texte de droite. Il ne reste plus qu'à copier-coller la table des matières dans votre fichier.md</p>
