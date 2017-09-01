@@ -1,10 +1,12 @@
 # GitHub-toc générateur de Table des matières en ligne
 
+- [GitHub-toc générateur de Table des matières en ligne](#github-toc-générateur-de-table-des-matières-en-ligne)
 - [Installation](#installation)
   * [Compilation](#compilation)
   * [Mise à jour sur le GitHub](#mise-à-jour-sur-le-github)
 - [Utilisation](#utilisation)
   * [Génération de la table des matières](#génération-de-la-table-des-matières)
+- [Source](#source)
 
 # Installation
 
@@ -41,3 +43,8 @@ Cliquer sur le lien ci-dessous
 https://epfl-sdf.github.io/markdown-toc/
 
 <p align="justify">Copier le contenu de votre fichier.md dans le bloc de texte de gauche puis appuyer sur le bouton "conversion" en bas à gauche. La table des matières générée s'affichera dans le bloc de texte de droite. Il ne reste plus qu'à copier-coller la table des matières dans votre fichier.md</p>
+
+# Source
+
+https://github.com/jonschlinkert/markdown-toc
+
