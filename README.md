@@ -10,10 +10,10 @@
 
 1. [GitHub-toc générateur de Table des matières en ligne](#github-toc-générateur-de-table-des-matières-en-ligne)
 1. [Installation](#installation)
-  1.1. [Compilation](#compilation)
-  1.1. [Mise à jour sur le GitHub](#mise-à-jour-sur-le-github)
+  1.2. [Compilation](#compilation)
+  2.1. [Mise à jour sur le GitHub](#mise-à-jour-sur-le-github)
 1. [Utilisation](#utilisation)
-  1.1. [Génération de la table des matières](#génération-de-la-table-des-matières)
+  2. [Génération de la table des matières](#génération-de-la-table-des-matières)
 1. [Source](#source)
 
 # Installation
