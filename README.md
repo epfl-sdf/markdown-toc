@@ -8,13 +8,13 @@
   * [Génération de la table des matières](#génération-de-la-table-des-matières)
 - [Source](#source)
 
-1 [GitHub-toc générateur de Table des matières en ligne](#github-toc-générateur-de-table-des-matières-en-ligne)
-1 [Installation](#installation)
-  2 [Compilation](#compilation)
-  2 [Mise à jour sur le GitHub](#mise-à-jour-sur-le-github)
-1 [Utilisation](#utilisation)
-  2 [Génération de la table des matières](#génération-de-la-table-des-matières)
-1 [Source](#source)
+1. [GitHub-toc générateur de Table des matières en ligne](#github-toc-générateur-de-table-des-matières-en-ligne)
+1. [Installation](#installation)
+  2. [Compilation](#compilation)
+  2. [Mise à jour sur le GitHub](#mise-à-jour-sur-le-github)
+1. [Utilisation](#utilisation)
+  2. [Génération de la table des matières](#génération-de-la-table-des-matières)
+1. [Source](#source)
 
 # Installation
 
